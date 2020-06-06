@@ -26,7 +26,7 @@ public class StudentService {
 	}
 
 	public Student getStudentById(UUID id) {
-		return  studentDataAccessService.getStudentById(id).orElse(null);
+		return studentDataAccessService.getStudentById(id).orElse(null);
 	}
 
 	public void addNewStudent(Student student) {
