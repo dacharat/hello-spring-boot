@@ -22,12 +22,8 @@ import com.example.demo.service.PersonService;
 @RequestMapping("api/v1/person")
 @RestController
 public class PersonController {
-	private final PersonService personService;
-
 	@Autowired
-	public PersonController(PersonService personService) {
-		this.personService = personService;
-	}
+	private PersonService personService;
 
 	@PostMapping
 	public void addPerson(@Valid @NotNull @RequestBody Person person) {
