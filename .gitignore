@@ -31,3 +31,5 @@ build/
 
 ### Other ###
 .Ds_Store
+
+jwt.pem

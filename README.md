@@ -8,3 +8,7 @@
 - select table `demodb`
 - add extension `CREATE EXTENSION "uuid-ossp";`
 - insert starter data `INSERT INTO person (id, name) VALUES (uuid_generate_v4(), 'Jack');`
+
+### Swagger
+
+- http://localhost:9090/swagger-ui.html 
