@@ -1,5 +1,9 @@
 server:
-  port: 3000
+  port: 9090
+spring:
+  messages:
+    basename: i18n/message
+    encoding: UTF-8
 app:
   datasource:
     jdbc-url: jdbc:postgresql://localhost:54320/demodb
